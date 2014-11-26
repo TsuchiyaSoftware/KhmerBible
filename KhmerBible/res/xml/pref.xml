@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+            android:title="@string/pref_title">
+        <jp.tsuchiyasoft.khmerbible.SeekBarPreference
+                android:key="seek_bar"
+                android:title="@string/seek_bar"
+                android:summary="@string/seek_bar_summary"
+                android:defaultValue="20"/>
+ </PreferenceCategory>
+</PreferenceScreen>
